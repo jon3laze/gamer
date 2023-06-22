@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', \App\Http\Livewire\Index::class);
+
+Route::get('/show', \App\Http\Livewire\Show::class);

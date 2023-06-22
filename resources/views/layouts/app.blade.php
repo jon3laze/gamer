@@ -11,12 +11,12 @@
     </head>
     <body class="bg-gray-900 text-white">
         <header class="border-b border-gray-800">
-            <nav class="container mx-auto flex items-center justify-between px-4 py-6">
-                <div class="flex items-center">
+            <nav class="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 py-6">
+                <div class="flex flex-col lg:flex-row items-center">
                     <livewire:logo>
                     <livewire:navigation>
                 </div>
-                <div class="flex items-center">
+                <div class="flex items-center mt-6 lg:mt-0">
                     <livewire:search>
                     <livewire:avatar>
                 </div>
